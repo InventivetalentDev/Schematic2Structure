@@ -1,3 +1,5 @@
+package org.inventivetalent.schematic2structure;
+
 /**
  * Block Class - Contains information about each individual block in the structure
  */
@@ -35,7 +37,6 @@ public class Block {
      */
     @Override
     public int hashCode() {
-
         return ((id * 10) + data) * 10;
     }
 
