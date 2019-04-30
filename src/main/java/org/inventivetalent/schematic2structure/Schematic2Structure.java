@@ -224,7 +224,7 @@ public class Schematic2Structure {
 						pos.add(new IntTag("y", y));
 						pos.add(new IntTag("z", x));
 
-						blockCompound.set("pos", new ListTag(TagID.TAG_INT, "pos"));
+						blockCompound.set("pos", pos);
 						blockCompound.set("state", new IntTag("state", index));
 
 						blockCompoundList.add(blockCompound);
